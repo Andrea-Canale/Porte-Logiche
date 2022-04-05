@@ -12,10 +12,10 @@ highlighter: shiki
 lineNumbers: false
 # some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## Porta logiche
+  Andrea Canale
 
-  Learn more at [Sli.dev](https://sli.dev)
+  3^INF
 # persist drawings in exports and build
 drawings:
   persist: false
@@ -306,3 +306,36 @@ L'or è l'operatore booleano "oppure", se negl'ingressi c'è almeno un valore a 
 
 # La porta NXOR
 
+<p>La prova del funzionamento con circuito chiuso e aperto</p>
+
+<div grid="~ cols-2 gap-2"  align="center">
+
+<div>
+<p>Circuito chiuso su entrambi gli ingressi, se apro tutto il circuito avviene la stessa cosa</p>
+<img src="/images/nexorall.png">
+</div>
+<div>
+<p>Circuito aperto su 1 ingresso</p>
+<img src="/images/nxoroff.png">
+</div>
+
+</div>
+<div align="center">
+<p>La NXOR funziona come una XOR ma restituisce 1 solo quando entrambi gli ingressi sono a 1 oppure a 0, se solo un ingresso è ad uno 1 restituisce 0</p>
+</div>
+
+---
+
+# Porte con più ingressi
+
+<p>&nbsp;</p>
+
+<p>Ci sono anche porte che hanno più di 2 ingressi ma sempre una sola uscita, ad esempio:</p>
+<p>&nbsp;</p>
+<div align="center">
+<img src="/images/tripla.png" width="256"/>
+</div>
+
+---
+
+# Grazie per l'attenzione
