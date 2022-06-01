@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://img.wallpapersafari.com/desktop/1920/1080/79/60/noJMU4.jpg
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -23,7 +23,7 @@ drawings:
 
 # Porte logiche
 
-Andrea Canale 3^INF
+Andrea Canale e Lorenzo Rizzolo 3^INF
 
 
 ---
@@ -391,7 +391,7 @@ L'or è l'operatore booleano "oppure", se negl'ingressi c'è almeno un valore a 
 
 | A | B | !A | Y |
 | - | - | - | - |
-| 0 | 0 | 1 | 1 |
+| 0 | 0 | 1 | 0 |
 | 1 | 0 | 0 | 0 |
 | 0 | 1 | 1 | 1 |
 | 1 | 1 | 0 | 0 |
