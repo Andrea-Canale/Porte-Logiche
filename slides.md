@@ -328,14 +328,85 @@ L'or è l'operatore booleano "oppure", se negl'ingressi c'è almeno un valore a 
 
 # Porte con più ingressi
 
-<p>&nbsp;</p>
+<p>Per questo esperimento abbiamo usato:</p>
 
-<p>Ci sono anche porte che hanno più di 2 ingressi ma sempre una sola uscita, ad esempio:</p>
-<p>&nbsp;</p>
-<div align="center">
-<img src="/images/tripla.png" width="256"/>
+<ul>
+  <li>Un alimentatore da 5v</li>
+  <li>Connettori maschio-maschio</li>
+  <li>Una porta logica NOT</li>
+  <li>Una porta logica AND</li>
+  <li>Una breadboard</li>
+  <li>
+  2 Pulsanti
+  </li>
+</ul>
+<br/>
+  <div class="grid grid-cols-6 gap-4">
+  <div>
+
+  <img src="/images/andimg.jpeg"/>
+
+  </div>
+  <div>
+
+  <img src="/images/breadboard.jpeg"/>
+
+  </div>
+  <div>
+  <img src="/images/pulsante.jpeg"/>
+  </div>
+  <div>
+  <img src="/images/notig.jpeg"/>
+  </div>
+  <div>
+  <img src="/images/cavi.jpeg"/>
+  </div>
+  <div>
+  <img src="/images/psu.jpg"/>
+  </div>
+  </div>
+---
+
+# Circuito con più porte combinate
+
+<p>Circuito con una porta NOT e una porta AND</p>
+
+<div grid="~ cols-2 gap-2"  align="center">
+
+<div>
+<p>Vista breadboard</p>
+<img src="/images/circuito_bb.png">
+</div>
+<div>
+<p>Vista circuito elettrico</p>
+<img src="/images/circuito_schem.png">
 </div>
 
+</div>
+
+
+---
+
+# Tabella della verità
+
+| A | B | !A | Y |
+| - | - | - | - |
+| 0 | 0 | 1 | 1 |
+| 1 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 0 |
+
+<p>
+  Come possiamo vedere solo se entrambi gli ingressi sono ad 1, la porta logica restituirà 1, la porta NOT, però nega l'ingresso A,
+  quindi per avere entrambi gli ingressi ad 1 dobbiamo mettere A a 0 e B a 1.
+</p>
+<p>Tutte le relazioni e i dettagli di questa relazione sono presenti al seguente <a href="https://lorenzo-rizzolo.github.io/porte_logiche/" target="_blank">link</a></p>
+
+---
+
+# Screenshot del sito
+
+<img src="/images/website.png"/>
 ---
 
 # Grazie per l'attenzione
